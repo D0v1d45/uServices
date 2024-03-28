@@ -1,0 +1,190 @@
+body{
+    background-color: calm;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.banner{
+    background-color: #CD9C8A;
+    text-align: center;
+    width: 2349px;
+    padding: 15px;
+    justify-content: space;
+    display:inline-block;
+}
+.navbar{
+    position:relative;
+    display:inline-block;
+    left:270px;
+}
+#login,#register
+{
+    display:inline-block;
+    color:white;
+    padding: 5px;
+    align-items: left;
+    font-weight: bolder;
+    list-style: none;
+    margin: 0;
+    position:relative;
+    left:50px;
+}
+#logout
+{
+    color:red;
+}
+
+
+ ul li{
+    display: inline;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 100px;
+
+}
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+.main
+{
+    height: 500px;
+    background-color: black;
+
+}
+.main img
+{
+    width:100%;
+}
+.top
+{
+    text-align: center;
+    color:#FF5100;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+.main2
+{
+    border-top: 2px solid grey;
+    height: 500px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border-bottom: 2px solid grey;
+}
+.main2 div
+{
+    width: 350px;
+    height: 250px;
+    background-color: #CD9C8A;
+    margin:20px;
+    border-radius: 50px;
+    text-align: center;
+    color:white;
+    inset: 100px;
+
+
+}
+.main2 div p
+{
+    font-size: 17px;
+    color:black;
+    margin-top: 50px;
+    align-items: center;
+
+}
+#text {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+    font-family: sans-serif;
+}
+#text2{
+    position:absolute;
+    top: 300px;
+    left: 200px;
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+    font-family: sans-serif;
+}
+.main3
+{
+    height: 300px;
+}
+.lastcontainer
+{
+    text-align: center;
+    color:grey;
+    padding: 20px;
+    text-align: center;
+    background-color:#CD9C8A ;
+}
+.dropbtn {
+    background-color: #CD9C8A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family:sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left:100px;
+  }
+  .drop{
+    position: relative;
+    display: inline-block;
+    left:450px;
+    color:red;
+  }
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    font-family: sans-serif;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #CD9C8A}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #lang {
+    position: absolute;
+    top:-3%;
+    right: 50px;
+    width: 500px;
+}
+
+#language
+{
+    right: 50px;
+    width: 100px;
+    height:50px;
+}
